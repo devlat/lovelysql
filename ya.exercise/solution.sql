@@ -21,8 +21,6 @@ VALUES ('Апельсины');
 INSERT INTO goods (name)
 VALUES ('Груши');
 
-SELECT * FROM GOODS;
-
 SELECT (CASE WHEN a.id > b.id THEN '{' || a.id || ', ' || b.id || '}' 
         ELSE '{' || b.id || ', ' || a.id || '}' END)
 FROM goods a
