@@ -11,3 +11,5 @@ DROP TABLE match_events;
 DROP TABLE c_action;
 DROP TABLE f_player;
 DROP TABLE f_team;
+
+CHECKING
